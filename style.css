@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+#game-container {
+  background-color: rgb(121, 121, 121);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#word-display {
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+#feedback {
+  color: rgb(105, 0, 0);
+  font-weight: bold;
+  font-size: 22px;
+}
+#hangman-canvas {
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
